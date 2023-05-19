@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="add-blog">
+            <h1>Makale Ekle</h1>
+            <div class="input-group">
+                <input type="text" id="title" placeholder="Makale Başlığı"/>
+            </div>
+            <div class="input-group">
+                <textarea rows="5" id="content" placeholder="Makale İçeriği"></textarea>
+            </div>
+            <div class="input-group">
+                <select id="privacy">
+                    <option value="0">Gizli</option>
+                    <option value="1" selected>Herkese Açık</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <button onclick="addBlog();">Gönder</button>
+            </div>
+        </div>
+        <div class="blogs">
+            <h1>Makaleler</h1>
+            <div class="blog-content"></div>
+        </div>
+    </div>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
