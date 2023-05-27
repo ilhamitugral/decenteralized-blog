@@ -11,7 +11,7 @@ contract Blog {
 
     Post[] posts;
 
-    function addBlog(string memory _title, string memory _content, bool _status) public {
+    function addBlog(string calldata _title, string calldata _content, bool _status) public {
         posts.push(Post(msg.sender, _title, _content, _status));
     }
 
@@ -19,7 +19,7 @@ contract Blog {
         return posts.length;
     }
 
-    function getPostData(uint _index) public view returns(address, string memory, string memory, bool) {
+    function getPostData(uint _index) public view returns(address, string calldata, string calldata, bool) {
         require(_index < posts.length, "Post not found.");
         return (
             posts[_index]._author,
