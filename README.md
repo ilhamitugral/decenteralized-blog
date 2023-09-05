@@ -1,6 +1,3 @@
-# Decenteralized Blog
-Bu projenin tasarımı [buradaki](https://www.youtube.com/watch?v=-pYtoEaYQ7k) videoda mevcuttur.
-
 # Kullanılan Teknolojiler
 * AVAX Fuji (C-Chain)
 * Vanilla JS
