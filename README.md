@@ -14,7 +14,7 @@ Tüm kaynak dosyalarını indirin ve `index.html` dosyasını çalıştırın.
 
 # Kendi Kontratımı Nasıl Çalıştırabilirim?
 Sistem varsayılan olarak benim `deploy` etmiş olduğum blockchainde çalışmaktadır. Kendi akıllı sözleşmenizi oluşturabilirsiniz.
-`Blog.sol` dosyasını remix.ethereum.org adresinde çalıştırın. Gerekli değişiklikleri yapın ve ardından `deploy` edin.
+`Blog.sol` dosyasını https://remix.ethereum.org adresinde çalıştırın. Gerekli değişiklikleri yapın ve ardından `deploy` edin.
 Deploy sonrasında `ABI` kodunu ve `contract` adresini `js/script.js` dosyası üzerinde değiştirin.
 
 > Not: Kontratı `Ethereum` blockchaini üzerinde de çalıştırabilirsiniz. Gerekli RPC ayarlarını yaptıktan sonra `Solidity` destekleyen tüm blockchainlerde kullanabilirsiniz.
